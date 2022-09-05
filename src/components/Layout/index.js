@@ -3,14 +3,15 @@ import Header from '../Header'
 import Footer from '../Footer'
 
 
-const Layout = ({children}) => {
+
+const Format = ({children}) => {
   return (
     <>
      <Header/>
-     {children}
+        {children}
      <Footer/>
     </>
   )
 }
 
-export default Layout
+export default Format
